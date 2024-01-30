@@ -7,6 +7,6 @@ def suma(x,y):
 #Función para saber si un número es par
 def numero_par(n):
     if n % 2 == 0:
-        print(n, "es par.")
+        return n, "es par."
     else:
-        print(n, "es impar.")
+        return n, "es impar."
