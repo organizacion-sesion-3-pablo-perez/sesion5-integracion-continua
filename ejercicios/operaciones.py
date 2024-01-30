@@ -3,3 +3,10 @@ def suma(x,y):
 
     # El alumno deberá implementar correctamente el código de la función para pasar el test correspondiente
     return x + y
+
+#Función para saber si un número es par
+def numero_par(n):
+    if n % 2 == 0:
+        print(n, "es par.")
+    else:
+        print(n, "es impar.")
